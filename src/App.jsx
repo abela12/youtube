@@ -1,5 +1,11 @@
+import Intro from "./components/intro/Intro";
+import About from "./components/about/About";
+
 const App = () => {
-  return <div>Hello world!</div>;
+  return <div>
+     <Intro/>
+     <About/>
+  </div>;
 };
 
 export default App;
